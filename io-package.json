@@ -1,0 +1,76 @@
+{
+	"common": {
+		"name": "proplanta",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Proplanta",
+		"titleLang": {
+			"en": "Proplanta",
+			"de": "Proplanta",
+			"ru": "Пропланта",
+			"pt": "Proplanta",
+			"nl": "Proplanta",
+			"fr": "Proplanta",
+			"it": "Proplanta",
+			"es": "Proplanta",
+			"pl": "Proplanta",
+			"zh-cn": "plant"
+		},
+		"desc": {
+			"en": "Ruft Wetterdaten von Proplanta ab.",
+			"de": "Ruft Wetterdaten von Proplanta ab.",
+			"ru": "Ruft Wetterdaten von Proplanta ab.",
+			"pt": "Ruft Wetterdaten von Proplanta ab.",
+			"nl": "Ruft Wetterdaten von Proplanta ab.",
+			"fr": "Ruft Wetterdaten von Proplanta ab.",
+			"it": "Ruft Wetterdaten von Proplanta ab.",
+			"es": "Ruft Wetterdaten von Proplanta ab.",
+			"pl": "Ruft Wetterdaten von Proplanta ab.",
+			"zh-cn": "Ruft Wetterdaten von Proplanta ab。"
+		},
+		"authors": [
+			"imp3r4t0r <git@hst-it.de>"
+		],
+		"keywords": [
+			"weather"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "proplanta.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/imp3r4t0r/ioBroker.proplanta/master/admin/proplanta.png",
+		"readme": "https://github.com/imp3r4t0r/ioBroker.proplanta/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "weather",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

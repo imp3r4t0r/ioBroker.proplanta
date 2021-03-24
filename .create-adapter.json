@@ -1,0 +1,40 @@
+{
+	"cli": true,
+	"adapterName": "proplanta",
+	"title": "Proplanta",
+	"description": "Ruft Wetterdaten von Proplanta ab.",
+	"keywords": [
+		"weather"
+	],
+	"contributors": [
+		"Holger Stöcker"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "weather",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "imp3r4t0r",
+	"authorGithub": "imp3r4t0r",
+	"authorEmail": "git@hst-it.de",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"license": "MIT License",
+	"ci": "gh-actions",
+	"dependabot": "no",
+	"creatorVersion": "1.32.0"
+}
