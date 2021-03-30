@@ -14,7 +14,8 @@
   "homepage": "https://github.com/imp3r4t0r/ioBroker.proplanta",
   "license": "MIT",
   "keywords": [
-    "weather"
+    "weather",
+    "Wetter"
   ],
   "repository": {
     "type": "git",
